@@ -4,7 +4,7 @@
   "classifications": ["Web", "Blazor", "Identity", "Auth"],
   "identity": "Farooqamahmud.Templates.BlazorGoogleAuthIdentity",
   "name": "Blazor Google Auth + ASP.NET Identity",
-  "shortName": "blazor-google-auth",
+  "shortName": "teqniqly-blazor-google-auth",
   "sourceName": "BlazorGoogleAuthIdentity",
   "tags": {
     "language": "C#",

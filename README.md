@@ -1,4 +1,4 @@
-# blazor-google-auth-identity
+# teqniqly-blazor-google-auth-identity
 
 `dotnet new` template — Blazor Server with Google OAuth, ASP.NET Core Identity, SQL Server, and OpenTelemetry.
 
@@ -11,13 +11,13 @@ dotnet new install ./BlazorGoogleAuthIdentity
 ## Use
 
 ```bash
-dotnet new blazor-google-auth --name MyApp
+dotnet new teqniqly-blazor-google-auth --name MyApp
 ```
 
 Optionally override the home page tagline:
 
 ```bash
-dotnet new blazor-google-auth --name MyApp --AppDescription "Manage your inventory."
+dotnet new teqniqly-blazor-google-auth --name MyApp --AppDescription "Manage your inventory."
 ```
 
 ## What you get
