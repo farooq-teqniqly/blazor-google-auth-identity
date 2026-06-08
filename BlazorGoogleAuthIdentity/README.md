@@ -17,13 +17,41 @@ Blazor Server app with Google OAuth, ASP.NET Core Identity, SQL Server, and Open
 dotnet user-secrets set "Authentication:Google:ClientId" "<id>"
 dotnet user-secrets set "Authentication:Google:ClientSecret" "<secret>"
 
-# Database
+# Database connection string
 dotnet user-secrets set "ConnectionStrings:DefaultConnection" "<connection-string>"
 
-# Create schema
+# Start SQL Server (required before running migrations)
+cp .env.example .env          # add MSSQL_SA_PASSWORD
+docker compose up -d
+
+# Create and apply schema
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
+dotnet run
 ```
+
+## OpenTelemetry
+
+Traces, metrics, and logs are exported via OTLP. The endpoint defaults to `http://localhost:4317`. Override in `appsettings.json`:
+
+```json
+{
+  "OpenTelemetry": {
+    "Endpoint": "http://localhost:4317"
+  }
+}
+```
+
+Or via environment variable:
+
+```
+OpenTelemetry__Endpoint=http://my-collector:4317
+```
+
+Instrumentation included out of the box: ASP.NET Core, HTTP client, EF Core (traces only).
+
+The service name reported to the collector defaults to the project name. To change it, update `ServiceName` in `Extensions/TelemetryExtensions.cs`.
 
 ## Authentication
 
