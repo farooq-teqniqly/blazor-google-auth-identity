@@ -39,6 +39,10 @@ dotnet user-secrets set "Authentication:Google:ClientId" "<id>"
 dotnet user-secrets set "Authentication:Google:ClientSecret" "<secret>"
 dotnet user-secrets set "ConnectionStrings:DefaultConnection" "<connection-string>"
 
+# Start SQL Server (required before running migrations)
+cp .env.example .env          # add MSSQL_SA_PASSWORD
+docker compose up -d
+
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 
