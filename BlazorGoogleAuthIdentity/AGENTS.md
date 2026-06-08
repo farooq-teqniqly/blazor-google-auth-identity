@@ -1,5 +1,20 @@
 # BlazorGoogleAuthIdentity
 
+## Getting started
+
+```bash
+# Set Google OAuth credentials
+dotnet user-secrets set "Authentication:Google:ClientId" "<id>"
+dotnet user-secrets set "Authentication:Google:ClientSecret" "<secret>"
+
+# Set database connection string
+dotnet user-secrets set "ConnectionStrings:DefaultConnection" "<connection-string>"
+
+# Create and apply initial migration
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+
 | Setting | Value |
 |---------|-------|
 | **Interactivity Mode** | Server |
