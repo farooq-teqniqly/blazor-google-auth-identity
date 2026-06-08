@@ -8,7 +8,7 @@ Blazor Server app with Google OAuth, ASP.NET Core Identity, SQL Server, and Open
 | **Authentication** | Google OAuth only |
 | **Roles** | `Admin`, `User` — seeded at startup |
 | **Database** | SQL Server via EF Core |
-| **Theme** | CSS custom properties (`--cf-theme-*`) |
+| **Theme** | CSS custom properties (`--app-theme-*`) |
 
 ## Setup
 
@@ -73,4 +73,4 @@ Pages are static SSR by default. Add `@rendermode InteractiveServer` only to com
 
 ## Theming
 
-Set `data-cf-theme="<name>"` on `<body>` or any parent element. Available themes: `blue`, `indigo`, `purple`, `green`, `teal`, `gray`, `yellow`, `code-magic`, `pink`, `red`, `orange`, `cyan`.
+Set `data-app-theme="<name>"` on `<body>` or any parent element. Available themes: `blue`, `indigo`, `purple`, `pink`, `red`, `orange`, `yellow`, `green`, `teal`, `cyan`, `gray`.

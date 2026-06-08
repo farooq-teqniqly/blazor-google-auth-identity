@@ -1,3 +1,3 @@
 ﻿window.setTheme = (theme) => {
-    document.querySelector("[data-cf-theme]").setAttribute("data-cf-theme", theme);
+    document.querySelector("[data-app-theme]").setAttribute("data-app-theme", theme);
 };
