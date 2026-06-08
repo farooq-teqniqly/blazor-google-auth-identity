@@ -67,6 +67,18 @@ Authentication__Google__ClientSecret=<secret>
 ConnectionStrings__DefaultConnection=<connection-string>
 ```
 
+## Scripts
+
+### `Scripts/Clear-IdentityUsers.ps1`
+
+Deletes all user and login data from the Identity tables inside a single SQL Server transaction. Roles (`AspNetRoles`, `AspNetRoleClaims`) are preserved. Prompts for confirmation before executing.
+
+```powershell
+.\Scripts\Clear-IdentityUsers.ps1 -Server "localhost,1433" -Database "MyAppDb" -Username "sa" -Password "MyPass1!"
+```
+
+Requires PowerShell 5.1+. No extra tooling needed — uses `System.Data.SqlClient` directly.
+
 ## Rendering
 
 Pages are static SSR by default. Add `@rendermode InteractiveServer` only to components that need client-side behavior. Never add it to Identity/Account pages or to `<Routes>` in `App.razor`.
