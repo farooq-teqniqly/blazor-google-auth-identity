@@ -1,1 +1,1 @@
-# blazor-google-auth-identity
+# school-track-app
