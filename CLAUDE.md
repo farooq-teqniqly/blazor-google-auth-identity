@@ -1,4 +1,4 @@
-# CLAUDE.md — dotnet-otel
+# CLAUDE.md — teqniqly-blazor-google-auth-identity
 
 ## Language and spelling
 
