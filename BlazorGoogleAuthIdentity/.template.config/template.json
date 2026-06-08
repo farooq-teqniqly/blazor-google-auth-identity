@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "farooqamahmud",
+  "classifications": ["Web", "Blazor", "Identity", "Auth"],
+  "identity": "Farooqamahmud.Templates.BlazorGoogleAuthIdentity",
+  "name": "Blazor Google Auth + ASP.NET Identity",
+  "shortName": "blazor-google-auth",
+  "sourceName": "BlazorGoogleAuthIdentity",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "AppDescription": {
+      "type": "parameter",
+      "datatype": "string",
+      "displayName": "App description",
+      "description": "Short tagline shown on the home page.",
+      "defaultValue": "A Blazor web application.",
+      "replaces": "Track and record times for school track team members."
+    },
+    "UserSecretsId": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "aspnet-SchoolTrackTracker-a06a614d-6518-41a3-9f47-288e1bd8bcd2",
+      "parameters": {
+        "format": "D"
+      }
+    }
+  }
+}
