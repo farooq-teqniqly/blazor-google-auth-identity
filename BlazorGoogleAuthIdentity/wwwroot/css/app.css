@@ -1,21 +1,21 @@
 :root {
-    --cf-title-font: 'Bebas Neue';
-    --cf-body-font: 'Montserrat';
-    --cf-dark-color: #212121;
-    --cf-light-color: #deeefb;
-    --cf-font-size: 1rem;
+    --app-title-font: 'Bebas Neue';
+    --app-body-font: 'Montserrat';
+    --app-dark-color: #212121;
+    --app-light-color: #deeefb;
+    --app-font-size: 1rem;
 }
 
 html, body {
-    font-family: var(--cf-body-font);
-    font-size: var(--cf-font-size);
+    font-family: var(--app-body-font);
+    font-size: var(--app-font-size);
     height: 100%;
     min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: var(--cf-title-font);
+    font-family: var(--app-title-font);
 }
 
 #app {

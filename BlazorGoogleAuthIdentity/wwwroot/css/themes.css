@@ -1,180 +1,180 @@
 :root {
-    --app-theme-core: var(--cf-yellow-core);
+    --app-theme-core: var(--app-yellow-core);
     /* app background */
-    --app-theme-100: var(--cf-yellow-100);
+    --app-theme-100: var(--app-yellow-100);
     /* subtle background */
-    --app-theme-150: var(--cf-yellow-150);
+    --app-theme-150: var(--app-yellow-150);
     /* UI element background */
-    --app-theme-200: var(--cf-yellow-200);
+    --app-theme-200: var(--app-yellow-200);
     /* hovered UI background */
-    --app-theme-300: var(--cf-yellow-300);
+    --app-theme-300: var(--app-yellow-300);
     /* active UI */
-    --app-theme-400: var(--cf-yellow-400);
+    --app-theme-400: var(--app-yellow-400);
     /* selected UI */
-    --app-theme-500: var(--cf-yellow-500);
+    --app-theme-500: var(--app-yellow-500);
     /* subtle borders and separators */
-    --app-theme-600: var(--cf-yellow-600);
+    --app-theme-600: var(--app-yellow-600);
     /* element border / focus rings */
-    --app-theme-700: var(--cf-yellow-700);
+    --app-theme-700: var(--app-yellow-700);
     /* hovered border  */
-    --app-theme-800: var(--cf-yellow-800);
+    --app-theme-800: var(--app-yellow-800);
     /* hovered dark backgrounds */
-    --app-theme-850: var(--cf-yellow-850);
+    --app-theme-850: var(--app-yellow-850);
     /* dark backgrounds */
-    --app-theme-900: var(--cf-yellow-900);
+    --app-theme-900: var(--app-yellow-900);
     /* #region blue */
-    --cf-blue-core: hsl(216, 98%, 52%);
-    --cf-blue-100: hsl(216, 50%, 91%);
-    --cf-blue-150: hsl(216, 50%, 86%);
-    --cf-blue-200: hsl(216, 50%, 81%);
-    --cf-blue-300: hsl(216, 50%, 71%);
-    --cf-blue-400: hsl(216, 50%, 61%);
-    --cf-blue-500: hsl(216, 50%, 51%);
-    --cf-blue-600: hsl(216, 50%, 41%);
-    --cf-blue-700: hsl(216, 50%, 31%);
-    --cf-blue-800: hsl(216, 50%, 21%);
-    --cf-blue-850: hsl(216, 50%, 16%);
-    --cf-blue-900: hsl(216, 50%, 11%);
+    --app-blue-core: hsl(216, 98%, 52%);
+    --app-blue-100: hsl(216, 50%, 91%);
+    --app-blue-150: hsl(216, 50%, 86%);
+    --app-blue-200: hsl(216, 50%, 81%);
+    --app-blue-300: hsl(216, 50%, 71%);
+    --app-blue-400: hsl(216, 50%, 61%);
+    --app-blue-500: hsl(216, 50%, 51%);
+    --app-blue-600: hsl(216, 50%, 41%);
+    --app-blue-700: hsl(216, 50%, 31%);
+    --app-blue-800: hsl(216, 50%, 21%);
+    --app-blue-850: hsl(216, 50%, 16%);
+    --app-blue-900: hsl(216, 50%, 11%);
     /* #endregion blue */
     /* #region indigo */
-    --cf-indigo-core: #6610f2;
-    --cf-indigo-100: hsl(263, 88%, 90%);
-    --cf-indigo-150: hsl(263, 88%, 85%);
-    --cf-indigo-200: hsl(263, 88%, 80%);
-    --cf-indigo-300: hsl(263, 88%, 70%);
-    --cf-indigo-400: hsl(263, 88%, 60%);
-    --cf-indigo-500: hsl(263, 88%, 50%);
-    --cf-indigo-600: hsl(263, 88%, 40%);
-    --cf-indigo-700: hsl(263, 88%, 30%);
-    --cf-indigo-800: hsl(263, 88%, 20%);
-    --cf-indigo-850: hsl(263, 88%, 15%);
-    --cf-indigo-900: hsl(263, 88%, 10%);
+    --app-indigo-core: #6610f2;
+    --app-indigo-100: hsl(263, 88%, 90%);
+    --app-indigo-150: hsl(263, 88%, 85%);
+    --app-indigo-200: hsl(263, 88%, 80%);
+    --app-indigo-300: hsl(263, 88%, 70%);
+    --app-indigo-400: hsl(263, 88%, 60%);
+    --app-indigo-500: hsl(263, 88%, 50%);
+    --app-indigo-600: hsl(263, 88%, 40%);
+    --app-indigo-700: hsl(263, 88%, 30%);
+    --app-indigo-800: hsl(263, 88%, 20%);
+    --app-indigo-850: hsl(263, 88%, 15%);
+    --app-indigo-900: hsl(263, 88%, 10%);
     /* #endregion indigo */
     /* #region purple */
-    --cf-purple-core: #6f42c1;
-    --cf-purple-100: hsl(261, 52%, 90%);
-    --cf-purple-150: hsl(261, 52%, 85%);
-    --cf-purple-200: hsl(261, 52%, 80%);
-    --cf-purple-300: hsl(261, 52%, 70%);
-    --cf-purple-400: hsl(261, 52%, 60%);
-    --cf-purple-500: hsl(261, 52%, 50%);
-    --cf-purple-600: hsl(261, 52%, 40%);
-    --cf-purple-700: hsl(261, 52%, 30%);
-    --cf-purple-800: hsl(261, 52%, 20%);
-    --cf-purple-850: hsl(261, 52%, 15%);
-    --cf-purple-900: hsl(261, 52%, 10%);
+    --app-purple-core: #6f42c1;
+    --app-purple-100: hsl(261, 52%, 90%);
+    --app-purple-150: hsl(261, 52%, 85%);
+    --app-purple-200: hsl(261, 52%, 80%);
+    --app-purple-300: hsl(261, 52%, 70%);
+    --app-purple-400: hsl(261, 52%, 60%);
+    --app-purple-500: hsl(261, 52%, 50%);
+    --app-purple-600: hsl(261, 52%, 40%);
+    --app-purple-700: hsl(261, 52%, 30%);
+    --app-purple-800: hsl(261, 52%, 20%);
+    --app-purple-850: hsl(261, 52%, 15%);
+    --app-purple-900: hsl(261, 52%, 10%);
     /* #endregion purple */
     /* #region pink */
-    --cf-pink-core: #d63384;
-    --cf-pink-100: hsl(331, 47%, 90%);
-    --cf-pink-150: hsl(331, 47%, 85%);
-    --cf-pink-200: hsl(331, 47%, 80%);
-    --cf-pink-300: hsl(331, 47%, 70%);
-    --cf-pink-400: hsl(331, 47%, 60%);
-    --cf-pink-500: hsl(331, 47%, 50%);
-    --cf-pink-600: hsl(331, 47%, 40%);
-    --cf-pink-700: hsl(331, 47%, 30%);
-    --cf-pink-800: hsl(331, 47%, 20%);
-    --cf-pink-850: hsl(331, 47%, 15%);
-    --cf-pink-900: hsl(331, 47%, 10%);
+    --app-pink-core: #d63384;
+    --app-pink-100: hsl(331, 47%, 90%);
+    --app-pink-150: hsl(331, 47%, 85%);
+    --app-pink-200: hsl(331, 47%, 80%);
+    --app-pink-300: hsl(331, 47%, 70%);
+    --app-pink-400: hsl(331, 47%, 60%);
+    --app-pink-500: hsl(331, 47%, 50%);
+    --app-pink-600: hsl(331, 47%, 40%);
+    --app-pink-700: hsl(331, 47%, 30%);
+    --app-pink-800: hsl(331, 47%, 20%);
+    --app-pink-850: hsl(331, 47%, 15%);
+    --app-pink-900: hsl(331, 47%, 10%);
     /* #endregion pink */
     /* #region red */
-    --cf-red-core: #dc3545;
-    --cf-red-100: hsl(355, 70%, 91%);
-    --cf-red-150: hsl(355, 70%, 86%);
-    --cf-red-200: hsl(355, 70%, 81%);
-    --cf-red-300: hsl(355, 70%, 71%);
-    --cf-red-400: hsl(355, 70%, 61%);
-    --cf-red-500: hsl(355, 70%, 51%);
-    --cf-red-600: hsl(355, 70%, 41%);
-    --cf-red-700: hsl(355, 70%, 31%);
-    --cf-red-800: hsl(355, 70%, 21%);
-    --cf-red-850: hsl(355, 70%, 16%);
-    --cf-red-900: hsl(355, 70%, 11%);
+    --app-red-core: #dc3545;
+    --app-red-100: hsl(355, 70%, 91%);
+    --app-red-150: hsl(355, 70%, 86%);
+    --app-red-200: hsl(355, 70%, 81%);
+    --app-red-300: hsl(355, 70%, 71%);
+    --app-red-400: hsl(355, 70%, 61%);
+    --app-red-500: hsl(355, 70%, 51%);
+    --app-red-600: hsl(355, 70%, 41%);
+    --app-red-700: hsl(355, 70%, 31%);
+    --app-red-800: hsl(355, 70%, 21%);
+    --app-red-850: hsl(355, 70%, 16%);
+    --app-red-900: hsl(355, 70%, 11%);
     /* #endregion red */
     /* #region orange */
-    --cf-orange-core: #fd7e14;
-    --cf-orange-100: hsl(19, 50%, 91%);
-    --cf-orange-150: hsl(19, 50%, 86%);
-    --cf-orange-200: hsl(19, 50%, 81%);
-    --cf-orange-300: hsl(19, 50%, 71%);
-    --cf-orange-400: hsl(19, 50%, 61%);
-    --cf-orange-500: hsl(19, 50%, 51%);
-    --cf-orange-600: hsl(19, 50%, 41%);
-    --cf-orange-700: hsl(19, 50%, 31%);
-    --cf-orange-800: hsl(19, 50%, 21%);
-    --cf-orange-850: hsl(19, 50%, 16%);
-    --cf-orange-900: hsl(19, 50%, 11%);
+    --app-orange-core: #fd7e14;
+    --app-orange-100: hsl(19, 50%, 91%);
+    --app-orange-150: hsl(19, 50%, 86%);
+    --app-orange-200: hsl(19, 50%, 81%);
+    --app-orange-300: hsl(19, 50%, 71%);
+    --app-orange-400: hsl(19, 50%, 61%);
+    --app-orange-500: hsl(19, 50%, 51%);
+    --app-orange-600: hsl(19, 50%, 41%);
+    --app-orange-700: hsl(19, 50%, 31%);
+    --app-orange-800: hsl(19, 50%, 21%);
+    --app-orange-850: hsl(19, 50%, 16%);
+    --app-orange-900: hsl(19, 50%, 11%);
     /* #endregion orange */
     /* #region yellow */
-    --cf-yellow-core: #ffc107;
-    --cf-yellow-100: hsl(46, 70%, 90%);
-    --cf-yellow-150: hsl(46, 70%, 85%);
-    --cf-yellow-200: hsl(46, 70%, 80%);
-    --cf-yellow-300: hsl(46, 70%, 70%);
-    --cf-yellow-400: hsl(46, 70%, 60%);
-    --cf-yellow-500: hsl(46, 70%, 50%);
-    --cf-yellow-600: hsl(46, 70%, 40%);
-    --cf-yellow-700: hsl(46, 70%, 30%);
-    --cf-yellow-800: hsl(46, 70%, 20%);
-    --cf-yellow-850: hsl(46, 70%, 15%);
-    --cf-yellow-900: hsl(46, 70%, 10%);
+    --app-yellow-core: #ffc107;
+    --app-yellow-100: hsl(46, 70%, 90%);
+    --app-yellow-150: hsl(46, 70%, 85%);
+    --app-yellow-200: hsl(46, 70%, 80%);
+    --app-yellow-300: hsl(46, 70%, 70%);
+    --app-yellow-400: hsl(46, 70%, 60%);
+    --app-yellow-500: hsl(46, 70%, 50%);
+    --app-yellow-600: hsl(46, 70%, 40%);
+    --app-yellow-700: hsl(46, 70%, 30%);
+    --app-yellow-800: hsl(46, 70%, 20%);
+    --app-yellow-850: hsl(46, 70%, 15%);
+    --app-yellow-900: hsl(46, 70%, 10%);
     /* #endregion yellow */
     /* #region green */
-    --cf-green-core: #198754;
-    --cf-green-100: hsl(152, 38%, 95%);
-    --cf-green-150: hsl(152, 38%, 90%);
-    --cf-green-200: hsl(152, 38%, 85%);
-    --cf-green-300: hsl(152, 38%, 75%);
-    --cf-green-400: hsl(152, 38%, 65%);
-    --cf-green-500: hsl(152, 38%, 55%);
-    --cf-green-600: hsl(152, 38%, 45%);
-    --cf-green-700: hsl(152, 38%, 35%);
-    --cf-green-800: hsl(152, 38%, 25%);
-    --cf-green-850: hsl(152, 38%, 20%);
-    --cf-green-900: hsl(152, 38%, 15%);
+    --app-green-core: #198754;
+    --app-green-100: hsl(152, 38%, 95%);
+    --app-green-150: hsl(152, 38%, 90%);
+    --app-green-200: hsl(152, 38%, 85%);
+    --app-green-300: hsl(152, 38%, 75%);
+    --app-green-400: hsl(152, 38%, 65%);
+    --app-green-500: hsl(152, 38%, 55%);
+    --app-green-600: hsl(152, 38%, 45%);
+    --app-green-700: hsl(152, 38%, 35%);
+    --app-green-800: hsl(152, 38%, 25%);
+    --app-green-850: hsl(152, 38%, 20%);
+    --app-green-900: hsl(152, 38%, 15%);
     /* #endregion green */
     /* #region teal */
-    --cf-teal-core: #20c997;
-    --cf-teal-100: hsl(162, 60%, 89%);
-    --cf-teal-150: hsl(162, 60%, 84%);
-    --cf-teal-200: hsl(162, 60%, 79%);
-    --cf-teal-300: hsl(162, 60%, 69%);
-    --cf-teal-400: hsl(162, 60%, 59%);
-    --cf-teal-500: hsl(162, 60%, 49%);
-    --cf-teal-600: hsl(162, 60%, 39%);
-    --cf-teal-700: hsl(162, 60%, 29%);
-    --cf-teal-800: hsl(162, 60%, 19%);
-    --cf-teal-850: hsl(162, 60%, 14%);
-    --cf-teal-900: hsl(162, 60%, 9%);
+    --app-teal-core: #20c997;
+    --app-teal-100: hsl(162, 60%, 89%);
+    --app-teal-150: hsl(162, 60%, 84%);
+    --app-teal-200: hsl(162, 60%, 79%);
+    --app-teal-300: hsl(162, 60%, 69%);
+    --app-teal-400: hsl(162, 60%, 59%);
+    --app-teal-500: hsl(162, 60%, 49%);
+    --app-teal-600: hsl(162, 60%, 39%);
+    --app-teal-700: hsl(162, 60%, 29%);
+    --app-teal-800: hsl(162, 60%, 19%);
+    --app-teal-850: hsl(162, 60%, 14%);
+    --app-teal-900: hsl(162, 60%, 9%);
     /* #endregion teal */
     /* #region cyan */
-    --cf-cyan-core: #0dcaf0;
-    --cf-cyan-100: hsl(191, 60%, 90%);
-    --cf-cyan-150: hsl(191, 60%, 85%);
-    --cf-cyan-200: hsl(191, 60%, 80%);
-    --cf-cyan-300: hsl(191, 60%, 70%);
-    --cf-cyan-400: hsl(191, 60%, 60%);
-    --cf-cyan-500: hsl(191, 60%, 50%);
-    --cf-cyan-600: hsl(191, 60%, 40%);
-    --cf-cyan-700: hsl(191, 60%, 30%);
-    --cf-cyan-800: hsl(191, 60%, 20%);
-    --cf-cyan-850: hsl(191, 60%, 15%);
-    --cf-cyan-900: hsl(191, 60%, 10%);
+    --app-cyan-core: #0dcaf0;
+    --app-cyan-100: hsl(191, 60%, 90%);
+    --app-cyan-150: hsl(191, 60%, 85%);
+    --app-cyan-200: hsl(191, 60%, 80%);
+    --app-cyan-300: hsl(191, 60%, 70%);
+    --app-cyan-400: hsl(191, 60%, 60%);
+    --app-cyan-500: hsl(191, 60%, 50%);
+    --app-cyan-600: hsl(191, 60%, 40%);
+    --app-cyan-700: hsl(191, 60%, 30%);
+    --app-cyan-800: hsl(191, 60%, 20%);
+    --app-cyan-850: hsl(191, 60%, 15%);
+    --app-cyan-900: hsl(191, 60%, 10%);
     /* #endregion cyan */
     /* #region gray */
-    --cf-gray-core: #adb5bd;
-    --cf-gray-100: hsl(210, 17%, 98%);
-    --cf-gray-150: hsl(210, 17%, 93%);
-    --cf-gray-200: hsl(210, 17%, 88%);
-    --cf-gray-300: hsl(210, 17%, 78%);
-    --cf-gray-400: hsl(210, 17%, 68%);
-    --cf-gray-500: hsl(210, 17%, 58%);
-    --cf-gray-600: hsl(210, 17%, 48%);
-    --cf-gray-700: hsl(210, 17%, 38%);
-    --cf-gray-800: hsl(210, 17%, 28%);
-    --cf-gray-850: hsl(210, 17%, 23%);
-    --cf-gray-900: hsl(210, 17%, 18%);
+    --app-gray-core: #adb5bd;
+    --app-gray-100: hsl(210, 17%, 98%);
+    --app-gray-150: hsl(210, 17%, 93%);
+    --app-gray-200: hsl(210, 17%, 88%);
+    --app-gray-300: hsl(210, 17%, 78%);
+    --app-gray-400: hsl(210, 17%, 68%);
+    --app-gray-500: hsl(210, 17%, 58%);
+    --app-gray-600: hsl(210, 17%, 48%);
+    --app-gray-700: hsl(210, 17%, 38%);
+    --app-gray-800: hsl(210, 17%, 28%);
+    --app-gray-850: hsl(210, 17%, 23%);
+    --app-gray-900: hsl(210, 17%, 18%);
     /* #endregion gray */
 }
 
@@ -220,166 +220,166 @@ a {
 }
 
 [data-app-theme="blue"] {
-    --app-theme-core: var(--cf-blue-core);
-    --app-theme-100: var(--cf-blue-100);
-    --app-theme-150: var(--cf-blue-150);
-    --app-theme-200: var(--cf-blue-200);
-    --app-theme-300: var(--cf-blue-300);
-    --app-theme-400: var(--cf-blue-400);
-    --app-theme-500: var(--cf-blue-500);
-    --app-theme-600: var(--cf-blue-600);
-    --app-theme-700: var(--cf-blue-700);
-    --app-theme-800: var(--cf-blue-800);
-    --app-theme-850: var(--cf-blue-850);
-    --app-theme-900: var(--cf-blue-900);
+    --app-theme-core: var(--app-blue-core);
+    --app-theme-100: var(--app-blue-100);
+    --app-theme-150: var(--app-blue-150);
+    --app-theme-200: var(--app-blue-200);
+    --app-theme-300: var(--app-blue-300);
+    --app-theme-400: var(--app-blue-400);
+    --app-theme-500: var(--app-blue-500);
+    --app-theme-600: var(--app-blue-600);
+    --app-theme-700: var(--app-blue-700);
+    --app-theme-800: var(--app-blue-800);
+    --app-theme-850: var(--app-blue-850);
+    --app-theme-900: var(--app-blue-900);
 }
 
 [data-app-theme="indigo"] {
-    --app-theme-core: var(--cf-indigo-core);
-    --app-theme-100: var(--cf-indigo-100);
-    --app-theme-150: var(--cf-indigo-150);
-    --app-theme-200: var(--cf-indigo-200);
-    --app-theme-300: var(--cf-indigo-300);
-    --app-theme-400: var(--cf-indigo-400);
-    --app-theme-500: var(--cf-indigo-500);
-    --app-theme-600: var(--cf-indigo-600);
-    --app-theme-700: var(--cf-indigo-700);
-    --app-theme-800: var(--cf-indigo-800);
-    --app-theme-850: var(--cf-indigo-850);
-    --app-theme-900: var(--cf-indigo-900);
+    --app-theme-core: var(--app-indigo-core);
+    --app-theme-100: var(--app-indigo-100);
+    --app-theme-150: var(--app-indigo-150);
+    --app-theme-200: var(--app-indigo-200);
+    --app-theme-300: var(--app-indigo-300);
+    --app-theme-400: var(--app-indigo-400);
+    --app-theme-500: var(--app-indigo-500);
+    --app-theme-600: var(--app-indigo-600);
+    --app-theme-700: var(--app-indigo-700);
+    --app-theme-800: var(--app-indigo-800);
+    --app-theme-850: var(--app-indigo-850);
+    --app-theme-900: var(--app-indigo-900);
 }
 
 [data-app-theme="purple"] {
-    --app-theme-core: var(--cf-purple-core);
-    --app-theme-100: var(--cf-purple-100);
-    --app-theme-150: var(--cf-purple-150);
-    --app-theme-200: var(--cf-purple-200);
-    --app-theme-300: var(--cf-purple-300);
-    --app-theme-400: var(--cf-purple-400);
-    --app-theme-500: var(--cf-purple-500);
-    --app-theme-600: var(--cf-purple-600);
-    --app-theme-700: var(--cf-purple-700);
-    --app-theme-800: var(--cf-purple-800);
-    --app-theme-850: var(--cf-purple-850);
-    --app-theme-900: var(--cf-purple-900);
+    --app-theme-core: var(--app-purple-core);
+    --app-theme-100: var(--app-purple-100);
+    --app-theme-150: var(--app-purple-150);
+    --app-theme-200: var(--app-purple-200);
+    --app-theme-300: var(--app-purple-300);
+    --app-theme-400: var(--app-purple-400);
+    --app-theme-500: var(--app-purple-500);
+    --app-theme-600: var(--app-purple-600);
+    --app-theme-700: var(--app-purple-700);
+    --app-theme-800: var(--app-purple-800);
+    --app-theme-850: var(--app-purple-850);
+    --app-theme-900: var(--app-purple-900);
 }
 
 [data-app-theme="pink"] {
-    --app-theme-core: var(--cf-pink-core);
-    --app-theme-100: var(--cf-pink-100);
-    --app-theme-150: var(--cf-pink-150);
-    --app-theme-200: var(--cf-pink-200);
-    --app-theme-300: var(--cf-pink-300);
-    --app-theme-400: var(--cf-pink-400);
-    --app-theme-500: var(--cf-pink-500);
-    --app-theme-600: var(--cf-pink-600);
-    --app-theme-700: var(--cf-pink-700);
-    --app-theme-800: var(--cf-pink-800);
-    --app-theme-850: var(--cf-pink-850);
-    --app-theme-900: var(--cf-pink-900);
+    --app-theme-core: var(--app-pink-core);
+    --app-theme-100: var(--app-pink-100);
+    --app-theme-150: var(--app-pink-150);
+    --app-theme-200: var(--app-pink-200);
+    --app-theme-300: var(--app-pink-300);
+    --app-theme-400: var(--app-pink-400);
+    --app-theme-500: var(--app-pink-500);
+    --app-theme-600: var(--app-pink-600);
+    --app-theme-700: var(--app-pink-700);
+    --app-theme-800: var(--app-pink-800);
+    --app-theme-850: var(--app-pink-850);
+    --app-theme-900: var(--app-pink-900);
 }
 
 [data-app-theme="red"] {
-    --app-theme-core: var(--cf-red-core);
-    --app-theme-100: var(--cf-red-100);
-    --app-theme-150: var(--cf-red-150);
-    --app-theme-200: var(--cf-red-200);
-    --app-theme-300: var(--cf-red-300);
-    --app-theme-400: var(--cf-red-400);
-    --app-theme-500: var(--cf-red-500);
-    --app-theme-600: var(--cf-red-600);
-    --app-theme-700: var(--cf-red-700);
-    --app-theme-800: var(--cf-red-800);
-    --app-theme-850: var(--cf-red-850);
-    --app-theme-900: var(--cf-red-900);
+    --app-theme-core: var(--app-red-core);
+    --app-theme-100: var(--app-red-100);
+    --app-theme-150: var(--app-red-150);
+    --app-theme-200: var(--app-red-200);
+    --app-theme-300: var(--app-red-300);
+    --app-theme-400: var(--app-red-400);
+    --app-theme-500: var(--app-red-500);
+    --app-theme-600: var(--app-red-600);
+    --app-theme-700: var(--app-red-700);
+    --app-theme-800: var(--app-red-800);
+    --app-theme-850: var(--app-red-850);
+    --app-theme-900: var(--app-red-900);
 }
 
 [data-app-theme="orange"] {
-    --app-theme-core: var(--cf-orange-core);
-    --app-theme-100: var(--cf-orange-100);
-    --app-theme-150: var(--cf-orange-150);
-    --app-theme-200: var(--cf-orange-200);
-    --app-theme-300: var(--cf-orange-300);
-    --app-theme-400: var(--cf-orange-400);
-    --app-theme-500: var(--cf-orange-500);
-    --app-theme-600: var(--cf-orange-600);
-    --app-theme-700: var(--cf-orange-700);
-    --app-theme-800: var(--cf-orange-800);
-    --app-theme-850: var(--cf-orange-850);
-    --app-theme-900: var(--cf-orange-900);
+    --app-theme-core: var(--app-orange-core);
+    --app-theme-100: var(--app-orange-100);
+    --app-theme-150: var(--app-orange-150);
+    --app-theme-200: var(--app-orange-200);
+    --app-theme-300: var(--app-orange-300);
+    --app-theme-400: var(--app-orange-400);
+    --app-theme-500: var(--app-orange-500);
+    --app-theme-600: var(--app-orange-600);
+    --app-theme-700: var(--app-orange-700);
+    --app-theme-800: var(--app-orange-800);
+    --app-theme-850: var(--app-orange-850);
+    --app-theme-900: var(--app-orange-900);
 }
 
 [data-app-theme="yellow"] {
-    --app-theme-core: var(--cf-yellow-core);
-    --app-theme-100: var(--cf-yellow-100);
-    --app-theme-150: var(--cf-yellow-150);
-    --app-theme-200: var(--cf-yellow-200);
-    --app-theme-300: var(--cf-yellow-300);
-    --app-theme-400: var(--cf-yellow-400);
-    --app-theme-500: var(--cf-yellow-500);
-    --app-theme-600: var(--cf-yellow-600);
-    --app-theme-700: var(--cf-yellow-700);
-    --app-theme-800: var(--cf-yellow-800);
-    --app-theme-850: var(--cf-yellow-850);
-    --app-theme-900: var(--cf-yellow-900);
+    --app-theme-core: var(--app-yellow-core);
+    --app-theme-100: var(--app-yellow-100);
+    --app-theme-150: var(--app-yellow-150);
+    --app-theme-200: var(--app-yellow-200);
+    --app-theme-300: var(--app-yellow-300);
+    --app-theme-400: var(--app-yellow-400);
+    --app-theme-500: var(--app-yellow-500);
+    --app-theme-600: var(--app-yellow-600);
+    --app-theme-700: var(--app-yellow-700);
+    --app-theme-800: var(--app-yellow-800);
+    --app-theme-850: var(--app-yellow-850);
+    --app-theme-900: var(--app-yellow-900);
 }
 
 [data-app-theme="green"] {
-    --app-theme-core: var(--cf-green-core);
-    --app-theme-100: var(--cf-green-100);
-    --app-theme-150: var(--cf-green-150);
-    --app-theme-200: var(--cf-green-200);
-    --app-theme-300: var(--cf-green-300);
-    --app-theme-400: var(--cf-green-400);
-    --app-theme-500: var(--cf-green-500);
-    --app-theme-600: var(--cf-green-600);
-    --app-theme-700: var(--cf-green-700);
-    --app-theme-800: var(--cf-green-800);
-    --app-theme-850: var(--cf-green-850);
-    --app-theme-900: var(--cf-green-900);
+    --app-theme-core: var(--app-green-core);
+    --app-theme-100: var(--app-green-100);
+    --app-theme-150: var(--app-green-150);
+    --app-theme-200: var(--app-green-200);
+    --app-theme-300: var(--app-green-300);
+    --app-theme-400: var(--app-green-400);
+    --app-theme-500: var(--app-green-500);
+    --app-theme-600: var(--app-green-600);
+    --app-theme-700: var(--app-green-700);
+    --app-theme-800: var(--app-green-800);
+    --app-theme-850: var(--app-green-850);
+    --app-theme-900: var(--app-green-900);
 }
 
 [data-app-theme="teal"] {
-    --app-theme-core: var(--cf-teal-core);
-    --app-theme-100: var(--cf-teal-100);
-    --app-theme-150: var(--cf-teal-150);
-    --app-theme-200: var(--cf-teal-200);
-    --app-theme-300: var(--cf-teal-300);
-    --app-theme-400: var(--cf-teal-400);
-    --app-theme-500: var(--cf-teal-500);
-    --app-theme-600: var(--cf-teal-600);
-    --app-theme-700: var(--cf-teal-700);
-    --app-theme-800: var(--cf-teal-800);
-    --app-theme-850: var(--cf-teal-850);
-    --app-theme-900: var(--cf-teal-900);
+    --app-theme-core: var(--app-teal-core);
+    --app-theme-100: var(--app-teal-100);
+    --app-theme-150: var(--app-teal-150);
+    --app-theme-200: var(--app-teal-200);
+    --app-theme-300: var(--app-teal-300);
+    --app-theme-400: var(--app-teal-400);
+    --app-theme-500: var(--app-teal-500);
+    --app-theme-600: var(--app-teal-600);
+    --app-theme-700: var(--app-teal-700);
+    --app-theme-800: var(--app-teal-800);
+    --app-theme-850: var(--app-teal-850);
+    --app-theme-900: var(--app-teal-900);
 }
 
 [data-app-theme="cyan"] {
-    --app-theme-core: var(--cf-cyan-core);
-    --app-theme-100: var(--cf-cyan-100);
-    --app-theme-150: var(--cf-cyan-150);
-    --app-theme-200: var(--cf-cyan-200);
-    --app-theme-300: var(--cf-cyan-300);
-    --app-theme-400: var(--cf-cyan-400);
-    --app-theme-500: var(--cf-cyan-500);
-    --app-theme-600: var(--cf-cyan-600);
-    --app-theme-700: var(--cf-cyan-700);
-    --app-theme-800: var(--cf-cyan-800);
-    --app-theme-850: var(--cf-cyan-850);
-    --app-theme-900: var(--cf-cyan-900);
+    --app-theme-core: var(--app-cyan-core);
+    --app-theme-100: var(--app-cyan-100);
+    --app-theme-150: var(--app-cyan-150);
+    --app-theme-200: var(--app-cyan-200);
+    --app-theme-300: var(--app-cyan-300);
+    --app-theme-400: var(--app-cyan-400);
+    --app-theme-500: var(--app-cyan-500);
+    --app-theme-600: var(--app-cyan-600);
+    --app-theme-700: var(--app-cyan-700);
+    --app-theme-800: var(--app-cyan-800);
+    --app-theme-850: var(--app-cyan-850);
+    --app-theme-900: var(--app-cyan-900);
 }
 
 [data-app-theme="gray"] {
-    --app-theme-core: var(--cf-gray-core);
-    --app-theme-100: var(--cf-gray-100);
-    --app-theme-150: var(--cf-gray-150);
-    --app-theme-200: var(--cf-gray-200);
-    --app-theme-300: var(--cf-gray-300);
-    --app-theme-400: var(--cf-gray-400);
-    --app-theme-500: var(--cf-gray-500);
-    --app-theme-600: var(--cf-gray-600);
-    --app-theme-700: var(--cf-gray-700);
-    --app-theme-800: var(--cf-gray-800);
-    --app-theme-850: var(--cf-gray-850);
-    --app-theme-900: var(--cf-gray-900);
+    --app-theme-core: var(--app-gray-core);
+    --app-theme-100: var(--app-gray-100);
+    --app-theme-150: var(--app-gray-150);
+    --app-theme-200: var(--app-gray-200);
+    --app-theme-300: var(--app-gray-300);
+    --app-theme-400: var(--app-gray-400);
+    --app-theme-500: var(--app-gray-500);
+    --app-theme-600: var(--app-gray-600);
+    --app-theme-700: var(--app-gray-700);
+    --app-theme-800: var(--app-gray-800);
+    --app-theme-850: var(--app-gray-850);
+    --app-theme-900: var(--app-gray-900);
 }
